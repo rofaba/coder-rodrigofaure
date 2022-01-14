@@ -57,7 +57,7 @@ body {
   margin-left: 60px;
 }
 
-/* GRID INDEX */
+/* GRID INDEX
 
 .presentacion_1 {
   display: grid;
@@ -107,17 +107,31 @@ body {
 
 .presentacion_2 img {
   width: 100%;
+} */
+
+/*  BOOTSTRAP GRID INDEX */
+
+.col {
+  width: 500px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 22px;
+}
+.col img {
+  width: 100%;
 }
 
+/*  BOOTSTRAP GRID INDEX */
 .redes img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-  .redes:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
-
+.redes:hover {
+  transform: scale(
+    1.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 .irHome {
   display: inline-block;
@@ -142,12 +156,12 @@ body {
   width: 100%;
   height: 20rem;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   margin-bottom: 150px;
 }
 
 .navega--menu {
-  width: 33%;
+  width: 28%;
   height: 20rem;
   margin: 12px;
   border: 3px solid ivory;
@@ -156,7 +170,7 @@ body {
   display: flex;
   position: relative;
   overflow: hidden;
-} 
+}
 
 .navega--menu img {
   width: 100%;
@@ -164,34 +178,32 @@ body {
   object-fit: cover;
 }
 
-.navega--menu .hover{
+.navega--menu .hover {
   width: 0%;
   height: 20rem;
-  background-color:rgb(2, 0, 36, 0.6);
+  background-color: rgb(2, 0, 36, 0.6);
   display: flex;
   position: absolute;
-  top:0;
+  top: 0;
   align-items: center;
   justify-items: center;
   overflow: hidden;
-  transition: .5s all;
+  transition: 0.5s all;
 }
-.hover h2{
-
+.hover h2 {
   color: ivory;
   text-shadow: 1px 1px 1px rgba(2, 0, 36);
   align-items: center;
 }
 
-.navega--menu:hover .hover{
+.navega--menu:hover .hover {
   width: 50%;
-
 }
 
 .boton {
   border-radius: 10 px;
   background-color: rgba(2, 0, 36);
-  object-fit:cover;
+  object-fit: cover;
 }
 
 #piensa {
@@ -199,6 +211,7 @@ body {
   margin: 80px;
   font-size: 40px;
 }
+
 /* GRID html viajes*/
 
 .cuerpo {
@@ -344,7 +357,7 @@ body {
 .footer--imagen {
   object-fit: auto;
 }
-.contacto--mail{
+.contacto--mail {
   font-size: 20px;
   padding-bottom: 2rem;
 }
