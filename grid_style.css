@@ -1,0 +1,128 @@
+/* MEDIA QUERY TELEFONO */
+
+@media all and (max-width: 480px) {
+  .header {
+    display: block;
+    width: 100%;
+    margin: 20px;
+  }
+  .logo {
+    width: 8rem;
+  }
+
+  .inicio h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+
+    margin: 20px;
+  }
+  .redes {
+    display: inline-block;
+    margin-left: 2px;
+  }
+
+  .presentacion_1 {
+    display: table-row;
+  }
+  .navega {
+    margin-bottom: 20px;
+  }
+
+  .navega h2 {
+    font-size: 10px;
+  }
+
+  .dos_ruedas {
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .cp {
+    margin-bottom: 20px;
+  }
+
+  .ve {
+    display: none;
+  }
+
+  .aventura {
+    display: none;
+  }
+  .prepara {
+    display: none;
+  }
+  .sp {
+    display: none;
+  }
+  .aventura {
+    display: none;
+  }
+  .nosotros h2 {
+    font-size: 25px;
+  }
+  .nosotros p {
+    font-size: 20px;
+  }
+  .img_nosotros {
+    display: block;
+    width: 250px;
+  }
+  .img_nosotros #foto1 {
+    display: none;
+  }
+}
+/* MEDIA QUERY TABLET */
+
+@media all and (min-width: 481px) and (max-width: 968px) {
+  .header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .logo {
+    width: 10rem;
+  }
+
+  .inicio h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+
+    margin: 20px;
+  }
+  .redes {
+    display: inline-block;
+    margin-left: 2px;
+  }
+
+  .presentacion_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, auto);
+    grid-gap: 20px;
+    margin-left: 10px;
+  }
+  .navega {
+    margin-bottom: 20px;
+  }
+
+  .navega h2 {
+    font-size: 10px;
+  }
+
+  .dos_ruedas {
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .cp {
+    margin-bottom: 20px;
+  }
+
+  .prepara {
+    display: none;
+  }
+  .sp {
+    display: none;
+  }
+}
