@@ -1,171 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>viajes</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="grid_style.css">
-    
-  </head>
-  <body>
-    
-   
-      <header class="header">
-      
-        <div class="logo">
-        
-          <a href="index.html"a> <img src="img/moto.jpeg" alt="logo" title="logo">
-          </a>
-      </div> 
-      
-      <div class="inicio"> 
-          <h1> vamos de ruta</h1> 
-      </div>
-      
-      <!-- links redes y contacto -->
-      <div class="redes">
-              
-      <a href="https://www.facebook.com." target="_blank"> <img src="img/facebook.png" alt="Facebook" title="facebook" ></a>
-      <a href="https://www.twitter.com" target="_blank"> <img src="img/twitter.png" alt="twitter" title="twitter" ></a>
-      <a href="https://www.instagram.com" target="_blank"> <img src="img/instagram.png" alt="Instagram" title="instagram"></a>
-      <a href="https://github.com/rofaba/coder" target="_blank"> <img src="img/git.png" alt="GitHub" title="github" > </a>
-      <a href="contacto.html"> <img src="img/contacto.png" alt="Contacto" title="contacto"> </a>
-      </div>
-<!-- tarea;  dos de las fotos no coinciden con el tamaño del contenedor-->
-</header>       
-<nav class="navega">
-  <div class="navega--menu">
-      <a href="nosotros.html"> <img src="img/motoaccion.jpeg" alt="nosotros"></a>
-          
-      <div class="hover">
-              <h2> Nosotros</h2>
-      </div>
-  </div>
 
-  <div class="navega--menu">
+<head>
+  <meta charset="UTF-8" />
+  <title>viajes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="grid_style.css">
+
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+  <header class="header">
+
+    <div class="logo">
+
+      <a href="index.html" a> <img src="img/moto.jpeg" alt="logo" title="logo">
+      </a>
+    </div>
+
+    <div class="inicio">
+      <h1> vamos de ruta</h1>
+    </div>
+
+    <div class="redes">
+
+      <a href="https://www.facebook.com." target="_blank"> <img src="img/facebook.png" alt="Facebook"
+          title="facebook"></a>
+      <a href="https://www.twitter.com" target="_blank"> <img src="img/twitter.png" alt="twitter" title="twitter"></a>
+      <a href="https://www.instagram.com" target="_blank"> <img src="img/instagram.png" alt="Instagram"
+          title="instagram"></a>
+      <a href="https://github.com/rofaba/coder" target="_blank"> <img src="img/git.png" alt="GitHub" title="github">
+      </a>
+      <a href="contacto.html"> <img src="img/contacto.png" alt="Contacto" title="contacto"> </a>
+    </div>
+
+
+  </header>
+  <nav class="navega">
+    <div class="navega--menu">
+      <a href="nosotros.html"> <img src="img/motoaccion.jpeg" alt="nosotros"></a>
+
+      <div class="hover">
+        <h2> Nosotros</h2>
+      </div>
+    </div>
+
+    <div class="navega--menu">
 
       <a href="viajes.html"><img src="img/torres.jpeg" alt="torresdelpaine" /></a>
-          
+
       <div class="hover">
-              <h2>Viajes</h2>
+        <h2>Viajes</h2>
       </div>
-  </div>
-  <div class="navega--menu">
+    </div>
+    <div class="navega--menu">
 
       <a href="servicios.html"><img src="img/mantenimiento.jpeg" alt="accion" /></a>
       <div class="hover">
-          <h2>Servicios</h2>
+        <h2>Servicios</h2>
       </div>
+    </div>
+  </nav>
+  </header>
+
+
+
+  <h2 id="piensa"> Piensa donde sueñas ir </h2>
+
+  <!--  BOOTSTRAP CAROUSEL WITH CAPTIONS-->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/sanpedro.jpeg" class="d-block w-100" alt="San Pedro">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>San Pedro de Atacama </h5>
+          <p>Culturas ancestrales y viajeros de todo el mundo se congregan acá.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/valle-elqui.jpeg" class="d-block w-100" alt="Valle Elqui">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>El Valle del Elqui</h5>
+          <p>Montañas, viñedos, flora, fauna y los cielos más cristalinos del mundo.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/chiloe-palafitos.jpeg" class="d-block w-100" alt="Chiloe">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Isla Grande de Chiloé</h5>
+          <p>Según la tradición mapuche dos serpientes monstruosas la separaron del continente.</p>
+        </div>
+      </div>
+    
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</nav>
-    </header>
 
-    <!--  ejemplos de destinos -->
-  <main>
-        <h2 id="piensa"> Piensa donde sueñas ir </h2>
 
-      <section class="cuerpo"> 
-        
-        <div class="san_pedro">
-            <p class="cuerpo--titulo">
-              San Pedro de Atacama
-            </p>
-            <p>
-            Culturas ancestrales y viajeros de todo el mundo se mezclan en este antiguo pueblo con calles de tierra y casas de adobe.
-            </p> 
-        </div>
-        <div class=san_pedro_img>
+  <!-- <h2 id="piensa"> Piensa donde sueñas ir </h2>
 
-            <img src="img/sanpedro.jpeg" />
-        </div> 
+    <section class="cuerpo">
 
-        <div class="valle_elqui">
-            <p class="cuerpo--titulo">
-              El valle del Elqui
-            </P>
-            <p>
-            Sus viñedos, flora y fauna, la producción de pisco y los cielos estrellados y despejados atraen a cientos de turistas que llegan a disfrutar de sus verdes paisajes enclavados en montañas.
-            </p>
-        </div> 
-        <div class="valle_elqui_img">
-            <img src="img/valle-elqui.jpeg" />
-        </div>
-
-        <div class="chiloe">
-          <p class="cuerpo--titulo">
-            La isla grande de Chiloé
-          </p>
-            <p>
-            "Fueron dos serpientes monstruosas", cuenta la tradición mapuche. La tierra se rompió, se separó. Lo que antes estaba unido al continente se disgregó en decenas de pedazos que formaron islas plagadas de colinas. Un nuevo territorio.
-            </p>
-        </div>
-        <div class="chiloe_img">
-            <img src="img/chiloe-palafitos.jpeg" />
-          
-        </div>
-        <div class="torresdelpaine">
-          <p class="cuerpo--titulo">
-            Parque nacional Torres del Paine
-          </p>
-          <p>
-            El Parque Nacional Torres del Paine, en la región de la Patagonia de Chile, es conocido por sus altas montañas, los témpanos de azul brillante que se aferran a los glaciares y las pampas doradas
-          
-          </p>
-          </div>
-          <div class="torresdelpaine_img">
-
-            <iframe
-            width="500"
-            height="215"
-            src="https://www.youtube.com/embed/9CAN0stUGnI"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-
-          <!-- <img src="img/torres.jpeg" /> -->
-          </div>
-      </section>
-
-        <!-- <p>
-          San Pedro de Atacama, La Serena, Pucón, Torres del Paine y mucho más
+      <div class="san_pedro">
+        <p class="cuerpo--titulo">
+          San Pedro de Atacama
         </p>
         <p>
-          Cuéntanos tus planes y nosotros nos encargamos, lo planeamos, lo
-          concretamos
+          Culturas ancestrales y viajeros de todo el mundo se mezclan en este antiguo pueblo con calles de tierra y
+          casas de adobe.
         </p>
-        <p>Tantos lugares por conocer, tantos kilómetros por descubrir</p>
-        <p>Seguro te encantaría conocer el Parque Nacional Torres del Paine</p>
- -->
-        <!-- <iframe
-          width="460"
-          height="215"
-          src="https://www.youtube.com/embed/9CAN0stUGnI"
-          title="YouTube video player"
+      </div>
+      <div class=san_pedro_img>
+
+        <img src="img/sanpedro.jpeg" />
+      </div>
+
+      <div class="valle_elqui">
+        <p class="cuerpo--titulo">
+          El valle del Elqui
+        </P>
+        <p>
+          Sus viñedos, flora y fauna, la producción de pisco y los cielos estrellados y despejados atraen a cientos de
+          turistas que llegan a disfrutar de sus verdes paisajes enclavados en montañas.
+        </p>
+      </div>
+      <div class="valle_elqui_img">
+        <img src="img/valle-elqui.jpeg" />
+      </div>
+
+      <div class="chiloe">
+        <p class="cuerpo--titulo">
+          La isla grande de Chiloé
+        </p>
+        <p>
+          "Fueron dos serpientes monstruosas", cuenta la tradición mapuche. La tierra se rompió, se separó. Lo que antes
+          estaba unido al continente se disgregó en decenas de pedazos que formaron islas plagadas de colinas. Un nuevo
+          territorio.
+        </p>
+      </div>
+      <div class="chiloe_img">
+        <img src="img/chiloe-palafitos.jpeg" />
+
+      </div>
+      <div class="torresdelpaine">
+        <p class="cuerpo--titulo">
+          Parque nacional Torres del Paine
+        </p>
+        <p>
+          El Parque Nacional Torres del Paine, en la región de la Patagonia de Chile, es conocido por sus altas
+          montañas, los témpanos de azul brillante que se aferran a los glaciares y las pampas doradas
+
+        </p>
+      </div>
+      <div class="torresdelpaine_img">
+
+        <iframe width="500" height="215" src="https://www.youtube.com/embed/9CAN0stUGnI" title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe> -->
-      
-    </main>
+          allowfullscreen></iframe>
 
-    <footer class="footer"> 
-    
-      <div class="irHome">
-  
-      <a href="index.html"> Ir a página principal </a>
-  
-      </div>
-     
-      <div class="footer--medio">
-        <a href="#inicio"> Ir arriba</a>
       
       </div>
-  
-     <!--  <div><img src="img/moto.png" alt="logo">
+    </section> -->
+
+
+
+
+  <!--  BOOTSTRAP CAROUSEL WITH CAPTIONS-->
+
+  <!-- <script>
+$( document ).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    })
+});
+
+  </script> -->
+
+
+  <footer class="footer">
+
+    <div class="irHome">
+
+      <a href="index.html"> Ir a página principal </a>
+
+    </div>
+
+    <div class="footer--medio">
+      <a href="#inicio"> Ir arriba</a>
+
+    </div>
+
+    <!--  <div><img src="img/moto.png" alt="logo">
       
       </div> -->
-  </footer >
-  </body>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>

@@ -212,7 +212,7 @@ body {
 
 /* GRID html viajes*/
 
-.cuerpo {
+/* .cuerpo {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
 
@@ -292,7 +292,7 @@ body {
 .torresdelpaine_img img {
   width: 100%;
   height: auto;
-}
+} */
 
 /* FIN GRID html viajes */
 
@@ -343,10 +343,12 @@ body {
   justify-content: flex-end;
   font-size: 20px;
   color: ivory;
+  padding: 1rem;
 }
 .footer--medio {
   margin-inline-end: 15px;
   margin-left: 3rem;
+  
 }
 
 .irHome img {
