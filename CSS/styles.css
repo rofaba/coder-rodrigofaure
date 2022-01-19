@@ -14,7 +14,8 @@ body {
   background: linear-gradient(
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 100, 121, 1) 22%,
-    rgba(0, 212, 255, 1) 100%  );
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .header {
@@ -347,7 +348,6 @@ body {
 .footer--medio {
   margin-inline-end: 15px;
   margin-left: 3rem;
-  
 }
 
 .irHome img {
